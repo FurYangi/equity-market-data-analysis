@@ -59,6 +59,9 @@ SPY (the broad market ETF) shows the lowest volatility and drawdown of the group
 
 Metrics come from a short 32-day synthetic sample, so annualized figures are noisy by construction -- they illustrate the calculation method, not real market expectations.
 
+
+![Annualized volatility by ticker](assets/equity_volatility_chart.svg)
+
 ## Skills Demonstrated
 
 SQL window functions for time-series calculations (returns, rolling volatility). Risk metric calculation in Python (volatility, Sharpe ratio, drawdown, correlation). Translating raw price data into risk-adjusted performance comparisons.
