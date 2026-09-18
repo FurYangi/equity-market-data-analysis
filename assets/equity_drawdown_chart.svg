@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="296" viewBox="0 0 520 296" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="520" height="296" fill="#ffffff"/>
+<text x="260" y="26" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Max Drawdown by Ticker (32-day synthetic sample)</text>
+<text x="100" y="71" text-anchor="end" font-size="13" fill="#222222">GS</text>
+<rect x="110" y="50" width="340.0" height="34" rx="3" fill="#dc2626"/>
+<text x="458.0" y="71" font-size="13" fill="#111111">13.2%</text>
+<text x="100" y="119" text-anchor="end" font-size="13" fill="#222222">JPM</text>
+<rect x="110" y="98" width="260.2" height="34" rx="3" fill="#dc2626"/>
+<text x="378.2" y="119" font-size="13" fill="#111111">10.1%</text>
+<text x="100" y="167" text-anchor="end" font-size="13" fill="#222222">MSFT</text>
+<rect x="110" y="146" width="231.8" height="34" rx="3" fill="#dc2626"/>
+<text x="349.8" y="167" font-size="13" fill="#111111">9.0%</text>
+<text x="100" y="215" text-anchor="end" font-size="13" fill="#222222">AAPL</text>
+<rect x="110" y="194" width="90.2" height="34" rx="3" fill="#dc2626"/>
+<text x="208.2" y="215" font-size="13" fill="#111111">3.5%</text>
+<text x="100" y="263" text-anchor="end" font-size="13" fill="#222222">SPY</text>
+<rect x="110" y="242" width="51.5" height="34" rx="3" fill="#dc2626"/>
+<text x="169.5" y="263" font-size="13" fill="#111111">2.0%</text>
+<line x1="110" y1="50" x2="110" y2="276" stroke="#333333" stroke-width="1"/>
+</svg>
