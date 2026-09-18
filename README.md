@@ -23,6 +23,9 @@ Business questions addressed: how volatile is each stock and how does it compare
 
 ```
 equity-market-data-analysis/
+    assets/
+    equity_volatility_chart.svg   (annualized volatility by ticker)
+    equity_drawdown_chart.svg     (max drawdown by ticker)
   data/
     stock_prices.csv         (sample daily close prices, 5 tickers)
   notebooks/
@@ -55,12 +58,13 @@ equity-market-data-analysis/
 | GS | 31.3% | -2.80 | -13.2% |
 | SPY | 11.2% | 2.89 | -2.0% |
 
+![Annualized volatility by ticker](assets/equity_volatility_chart.svg)
+
+![Max drawdown by ticker](assets/equity_drawdown_chart.svg)
+
 SPY (the broad market ETF) shows the lowest volatility and drawdown of the group, as expected for a diversified index versus single names. Correlations between individual stocks in this sample were low (mostly between -0.23 and +0.20), which is a property of the synthetic random-walk data rather than a real-world finding -- real equities in the same sectors typically show meaningfully higher correlation.
 
 Metrics come from a short 32-day synthetic sample, so annualized figures are noisy by construction -- they illustrate the calculation method, not real market expectations.
-
-
-![Annualized volatility by ticker](assets/equity_volatility_chart.svg)
 
 ## Skills Demonstrated
 
